@@ -1,6 +1,6 @@
 # docker-dotnetcore-aws
  
-A docker-in-docker image for .NET Core with a few dependencies installed.
+A docker-in-docker image for .NET7 with a few dependencies installed.
 
 https://hub.docker.com/r/keytelematics/docker-dotnetcore-aws/
 
