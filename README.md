@@ -1,11 +1,11 @@
 # docker-dotnetcore-aws
  
-A docker-in-docker image for .NET Core with a few dependencies installed.
+A docker-in-docker image for .NET7 with a few dependencies installed.
 
-https://hub.docker.com/r/keytelematics/docker-dotnetcore-aws/
+https://hub.docker.com/r/keytelematics/docker-dotnetcore-runtime-aws/
 
 ```
-docker build -t keytelematics/docker-dotnetcore-aws .
+docker build -t keytelematics/docker-dotnetcore-runtime-aws .
 ```
 
 ## Dependencies
@@ -15,3 +15,5 @@ docker build -t keytelematics/docker-dotnetcore-aws .
 - jq
 - ffmpeg
 - iproute2
+- curl
+
