@@ -16,3 +16,4 @@ docker build -t keytelematics/docker-dotnetcore-runtime-aws .
 - ffmpeg
 - iproute2
 - curl
+
