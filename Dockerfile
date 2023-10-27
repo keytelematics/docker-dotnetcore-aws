@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/runtime:6.0-jammy-arm64v8
+FROM mcr.microsoft.com/dotnet/runtime:7.0-jammy-arm64v8
 
 RUN echo "Arch = $(uname -m)"
 
