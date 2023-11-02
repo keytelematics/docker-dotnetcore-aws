@@ -43,5 +43,5 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           push: true
-          tags: isanderthul/docker-dotnetcore-runtime-aws:latest
+          tags: gavinvangent/docker-dotnetcore-runtime-aws:latest
           labels: ${{ steps.meta.outputs.labels }}
