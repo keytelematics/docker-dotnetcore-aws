@@ -45,6 +45,6 @@ jobs:
           push: true
           tags: |
             keytelematics/docker-dotnetcore-runtime-aws:latest
-            keytelematics/docker-dotnetcore-runtime-aws:7
-            keytelematics/docker-dotnetcore-runtime-aws:7.0
+            keytelematics/docker-dotnetcore-runtime-aws:8
+            keytelematics/docker-dotnetcore-runtime-aws:8.0
           labels: ${{ steps.meta.outputs.labels }}
